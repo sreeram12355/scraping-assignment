@@ -1,0 +1,19 @@
+2026-10-06 10:47:17,249 INFO    scrapers.base: [Books to Scrape] starting at http://127.0.0.1:37895/index.html
+2026-10-06 10:47:17,256 INFO    scrapers.http_client: No usable robots.txt at http://127.0.0.1:37895 (HTTP 404) - treating as allow-all
+2026-10-06 10:47:17,355 WARNING scrapers.http_client: Fetch failed for http://127.0.0.1:37895/catalogue/tipping_2/index.html (HTTP 500); retry 1/3 in 0.0s
+2026-10-06 10:47:17,373 INFO    scrapers.base: [Books to Scrape] http://127.0.0.1:37895/index.html -> 3 items (total 3)
+2026-10-06 10:47:17,389 INFO    scrapers.base: [Books to Scrape] http://127.0.0.1:37895/catalogue/page-2.html -> 3 items (total 6)
+2026-10-06 10:47:17,395 WARNING scrapers.base: [Books to Scrape] detail fetch failed, keeping partial record: HTTP 404 for http://127.0.0.1:37895/catalogue/badrating_7/index.html
+2026-10-06 10:47:17,398 INFO    scrapers.base: [Books to Scrape] http://127.0.0.1:37895/catalogue/page-3.html -> 2 items (total 8)
+2026-10-06 10:47:17,399 INFO    scrapers.base: [Books to Scrape] finished: 8 items, 3/3 pages ok
+2026-10-06 10:47:17,400 INFO    scrapers.base: [Quotes to Scrape] starting at http://127.0.0.1:35351/
+2026-10-06 10:47:17,402 INFO    scrapers.http_client: No usable robots.txt at http://127.0.0.1:35351 (HTTP 404) - treating as allow-all
+2026-10-06 10:47:17,412 WARNING scrapers.base: [Quotes to Scrape] detail fetch failed, keeping partial record: HTTP 404 for http://127.0.0.1:35351/author/Jane-Austen
+2026-10-06 10:47:17,412 INFO    scrapers.base: [Quotes to Scrape] http://127.0.0.1:35351/ -> 2 items (total 2)
+2026-10-06 10:47:17,418 INFO    scrapers.base: [Quotes to Scrape] http://127.0.0.1:35351/page/2/ -> 3 items (total 5)
+2026-10-06 10:47:17,418 INFO    scrapers.base: [Quotes to Scrape] finished: 5 items, 2/2 pages ok
+2026-10-06 10:47:17,419 WARNING pipeline: Rejected by validation: ['missing price (required for books)'] | http://127.0.0.1:37895/catalogue/noprice_6/index.html
+2026-10-06 10:47:17,419 WARNING pipeline: Rejected by validation: ["unrecognised rating 'Nine'"] | http://127.0.0.1:37895/catalogue/badrating_7/index.html
+2026-10-06 10:47:17,419 WARNING pipeline: Rejected by validation: ['missing author (required for quotes)'] | http://127.0.0.1:35351/page/2/
+2026-10-06 10:47:17,421 INFO    pipeline: Done in 0.2s: {'collected': 13, 'after_cleaning': 13, 'dropped_in_cleaning': 0, 'rejected_in_validation': 3, 'duplicates_detected': 2, 'duplicates_removed': 2, 'duplicates_flagged': 0, 'final_records': 8, 'unique_records': 8}
+2026-10-06 10:47:17,421 INFO    main: Log written to /tmp/mock_logs/run_20261006_104717.log

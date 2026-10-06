@@ -1,0 +1,100 @@
+{
+  "run": {
+    "started_at": "2026-10-06T10:53:04+00:00",
+    "execution_time_seconds": 84.15,
+    "sources": [
+      "books",
+      "quotes"
+    ],
+    "duplicate_mode": "remove",
+    "max_pages": 2,
+    "fetch_details": true
+  },
+  "totals": {
+    "collected": 60,
+    "after_cleaning": 60,
+    "dropped_in_cleaning": 0,
+    "rejected_in_validation": 0,
+    "duplicates_detected": 0,
+    "duplicates_removed": 0,
+    "duplicates_flagged": 0,
+    "final_records": 60,
+    "unique_records": 60
+  },
+  "validation_rejection_reasons": {},
+  "per_source": {
+    "Books to Scrape": {
+      "collected": 40,
+      "after_cleaning": 40,
+      "dropped_in_cleaning": 0,
+      "pages_attempted": 2,
+      "pages_ok": 2,
+      "pages_failed": 0,
+      "item_parse_errors": 0,
+      "detail_fetch_failures": 0,
+      "scraper_crash": null,
+      "errors": [],
+      "rejected_in_validation": 0,
+      "duplicates_detected": 0,
+      "final_records": 40,
+      "field_completeness": {
+        "source": 1.0,
+        "source_url": 1.0,
+        "name_or_title": 1.0,
+        "category": 1.0,
+        "price": 1.0,
+        "currency": 1.0,
+        "rating": 1.0,
+        "author": 0.0,
+        "tags": 0.0,
+        "description": 1.0,
+        "availability": 1.0,
+        "author_born_date": 0.0,
+        "author_born_location": 0.0,
+        "author_bio": 0.0,
+        "scraped_at": 1.0,
+        "is_duplicate": 1.0,
+        "duplicate_group": 0.0
+      }
+    },
+    "Quotes to Scrape": {
+      "collected": 20,
+      "after_cleaning": 20,
+      "dropped_in_cleaning": 0,
+      "pages_attempted": 2,
+      "pages_ok": 2,
+      "pages_failed": 0,
+      "item_parse_errors": 0,
+      "detail_fetch_failures": 0,
+      "scraper_crash": null,
+      "errors": [],
+      "rejected_in_validation": 0,
+      "duplicates_detected": 0,
+      "final_records": 20,
+      "field_completeness": {
+        "source": 1.0,
+        "source_url": 1.0,
+        "name_or_title": 1.0,
+        "category": 0.0,
+        "price": 0.0,
+        "currency": 0.0,
+        "rating": 0.0,
+        "author": 1.0,
+        "tags": 1.0,
+        "description": 0.0,
+        "availability": 0.0,
+        "author_born_date": 1.0,
+        "author_born_location": 1.0,
+        "author_bio": 1.0,
+        "scraped_at": 1.0,
+        "is_duplicate": 1.0,
+        "duplicate_group": 0.0
+      }
+    }
+  },
+  "http": {
+    "requests_made": 59,
+    "retries": 0,
+    "failed_urls": 0
+  }
+}

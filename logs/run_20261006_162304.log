@@ -1,0 +1,14 @@
+2026-10-06 16:23:04,695 INFO    scrapers.base: [Books to Scrape] starting at https://books.toscrape.com/
+2026-10-06 16:23:06,387 INFO    scrapers.http_client: No usable robots.txt at https://books.toscrape.com (HTTP 404) - treating as allow-all
+2026-10-06 16:23:24,204 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/ -> 20 items (total 20)
+2026-10-06 16:23:47,744 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-2.html -> 20 items (total 40)
+2026-10-06 16:23:47,745 INFO    scrapers.base: [Books to Scrape] max_pages=2 reached
+2026-10-06 16:23:47,755 INFO    scrapers.base: [Books to Scrape] finished: 40 items, 2/2 pages ok
+2026-10-06 16:23:47,764 INFO    scrapers.base: [Quotes to Scrape] starting at https://quotes.toscrape.com/
+2026-10-06 16:23:52,451 INFO    scrapers.http_client: No usable robots.txt at https://quotes.toscrape.com (HTTP 404) - treating as allow-all
+2026-10-06 16:24:13,950 INFO    scrapers.base: [Quotes to Scrape] https://quotes.toscrape.com/ -> 10 items (total 10)
+2026-10-06 16:24:28,828 INFO    scrapers.base: [Quotes to Scrape] https://quotes.toscrape.com/page/2/ -> 10 items (total 20)
+2026-10-06 16:24:28,829 INFO    scrapers.base: [Quotes to Scrape] max_pages=2 reached
+2026-10-06 16:24:28,830 INFO    scrapers.base: [Quotes to Scrape] finished: 20 items, 2/2 pages ok
+2026-10-06 16:24:28,874 INFO    pipeline: Done in 84.2s: {'collected': 60, 'after_cleaning': 60, 'dropped_in_cleaning': 0, 'rejected_in_validation': 0, 'duplicates_detected': 0, 'duplicates_removed': 0, 'duplicates_flagged': 0, 'final_records': 60, 'unique_records': 60}
+2026-10-06 16:24:28,882 INFO    __main__: Log written to logs\run_20261006_162304.log

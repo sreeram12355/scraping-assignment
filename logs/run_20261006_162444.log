@@ -1,0 +1,12 @@
+2026-10-06 16:24:44,953 INFO    scrapers.base: [Books to Scrape] starting at https://books.toscrape.com/
+2026-10-06 16:24:46,127 INFO    scrapers.http_client: No usable robots.txt at https://books.toscrape.com (HTTP 404) - treating as allow-all
+2026-10-06 16:24:56,463 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/ -> 20 items (total 20)
+2026-10-06 16:25:25,901 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-2.html -> 20 items (total 40)
+2026-10-06 16:25:38,101 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-3.html -> 20 items (total 60)
+2026-10-06 16:25:50,982 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-4.html -> 20 items (total 80)
+2026-10-06 16:26:00,294 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-5.html -> 20 items (total 100)
+2026-10-06 16:26:13,879 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-6.html -> 20 items (total 120)
+2026-10-06 16:26:31,558 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-7.html -> 20 items (total 140)
+2026-10-06 16:26:47,323 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-8.html -> 20 items (total 160)
+2026-10-06 16:27:02,558 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-9.html -> 20 items (total 180)
+2026-10-06 16:27:16,775 INFO    scrapers.base: [Books to Scrape] https://books.toscrape.com/catalogue/page-10.html -> 20 items (total 200)
